@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://serenityeditor.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="Serenity Editor - Light, fast rich text editing">
+  <meta name="description" content="Serenity Editor is a ultra light and fast rich text editor for markdown and more!">
+  <meta name="theme-color" content="#3D4451" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#FFFFFF" />
+  <link rel="apple-touch-icon" href="/logo192x192.png">
+  <title>Serenity Editor</title>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      body * {
+        color: white;
+      }
+    }
+
+    grammarly-popups {
+      color: black
+    }
+  </style>
+  %sveltekit.head%
+</head>
+
+<body>
+  <div id="app">%sveltekit.body%</div>
+</body>
+
+</html>
